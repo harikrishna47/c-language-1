@@ -1,0 +1,13 @@
+//ass 1//
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a=10,b=10;
+clrscr();
+printf("%d",a+b);
+printf("\n");
+printf("%d",a*b);
+printf("\n");
+printf("%d",((a*a)+(b*b)));
+}

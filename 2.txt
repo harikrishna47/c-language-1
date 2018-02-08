@@ -1,0 +1,28 @@
+
+
+#include <stdio.h>
+
+int main()
+{
+	int age;
+	float height;
+	char name[30], address[100];
+	
+	
+	printf("Enter name: ");
+	fgets(name,30,stdin);
+	printf("Enter address: ");
+	fgets(address,100,stdin);	
+	
+	printf("Enter age: ");
+	scanf("%d",&age);
+	
+	printf("Enter height in feet: ");
+	scanf("%f",&height);
+	printf("\n");
+	printf("Name: %s",name);
+	printf("Address: %s",address);
+	printf("Age: %d",age);
+	printf("\nHeight: %0.2f",height);
+	
+	}
